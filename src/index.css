@@ -2,6 +2,13 @@ body {
   background-color: #ecfcf1;
 }
 
+li {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 4px;
+}
+
 .icon {
   height: 2rem;
   width: 2rem;
@@ -50,7 +57,7 @@ body {
   font-size: 1.25rem;
   letter-spacing: 2px;
 
-  margin-top: 25%;
+  margin-top: 28rem;
 }
 
 .unpacked {
@@ -74,8 +81,9 @@ body {
 .list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 2rem;
-  gap: 10rem;
+  padding-left: 8px;
+  gap: 1rem;
+  margin-bottom: -5%;
 
   font-family: sans-serif;
   color: #000;
@@ -87,14 +95,14 @@ body {
 
 .delete {
   border: none;
-  background-color: #ecfcf1;
+  background-color: #ecfcf100;
   color: #000;
   cursor: pointer;
 }
 
 .delete:hover {
   color: #898989;
-  background-color: #ecfcf1;
+  background-color: #ecfcf100;
 }
 
 .form {
@@ -128,8 +136,9 @@ input {
   letter-spacing: 1px;
 }
 
-button {
-  margin-left: 0%;
+.add {
+  margin-left: -0.5rem;
+  overflow: hidden;
   gap: 5%;
   border: #606c3894 solid;
   color: #606c38;
@@ -144,4 +153,34 @@ button {
 button:hover {
   background-color: #606c38;
   color: #fff;
+}
+
+.box {
+  background-color: #ecfcf1;
+  border: #606c3894 solid;
+  color: #ecfcf1;
+  border-radius: 0%;
+  margin-right: -20%;
+  margin-left: 0%;
+  cursor: pointer;
+}
+
+.filter {
+  margin-bottom: -1rem;
+  margin-left: 74rem;
+  width: 9rem;
+}
+
+.clear {
+  margin-left: 0.8rem;
+  overflow: hidden;
+  gap: 5%;
+  border: #606c3894 solid;
+  color: #606c38;
+  width: 3.5rem;
+  height: 1.75rem;
+  background-color: #ecfcf1;
+  cursor: pointer;
+  font-family: sans-serif;
+  letter-spacing: 1px;
 }

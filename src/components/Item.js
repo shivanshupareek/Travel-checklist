@@ -1,4 +1,4 @@
-export default function Item({ item, onDeleteItems, onCheckedItems }) {
+export function Item({ item, onDeleteItems, onCheckedItems }) {
   return (
     <div>
       <li>
